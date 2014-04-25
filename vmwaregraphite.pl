@@ -19,9 +19,9 @@
 # See https://www.vmware.com/support/developer/viperltoolkit/doc/perl_toolkit_guide_idx.html if you need more help
 
 # Set to path for VMware Perl SDK
-use lib "/Users/kanthony/Downloads/vmware-vsphere-cli-distrib/apps/";
+use lib "../vmware-vsphere-cli-distrib/apps/";
 
-my $graphite_host   = '192.168.2.211';
+my $graphite_host   = 'graphite.local';
 my $graphite_port   = 2003;
 my $graphite_type   = 'tcp';
 my $graphite_prefix = 'vmware';
